@@ -1,0 +1,110 @@
+
+
+
+* ::before  ::after{
+margin: 0;
+padding: 0;
+}
+
+
+
+
+
+html {
+    font-size: 10px;
+}
+
+
+body{
+    font-family: sans-serif;
+    background-color:white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: rgb(0, 6, 10);
+}
+
+
+.container{
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 40rem;
+    border-radius: 0.5rem;
+}
+
+
+h1{
+    text-align: center;
+    margin: 1rem 2rem 0;
+    font-size: 3rem;
+}
+
+form{
+    padding:3rem 4rem ;
+}
+
+.form-Control{
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    position: relative;
+}
+.form-Control label{
+    color:rgb(227, 184, 167);
+    display: block;
+    margin-bottom: 0rem;
+    font-size: 1.6rem;
+}
+
+.form-Control input{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(227, 184, 167);
+    font-size: 1.8rem;
+}
+
+
+.form-Control input:focus {
+    outline:0;
+   border-radius:rgb(1, 1, 51);
+}
+
+
+.form-Control.error input{
+    border-color: red;
+}
+
+.form-Control.success input{
+    border-color: rgb(0, 128, 0);
+}
+
+.form-Control small{
+    color: red;
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: -0.5rem;
+    left: 0.5rem;
+    visibility: hidden;
+
+}
+
+
+.form-Control.error small{
+    visibility: visible;
+}
+
+button{ 
+    cursor: pointer;
+    background-color: blueviolet;
+    border: blueviolet;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color:white;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
